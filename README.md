@@ -63,3 +63,21 @@ kubectl delete -f deployment.yaml
 kubectl delete -f service.yaml
 minikube stop
 minikube delete
+
+
+### Upload to GitHub
+
+1. Initialize a Git repository:
+
+```bash
+git init
+2.Add the files and commit:
+```bash
+git add .
+git commit -m "Initial commit"
+
+3.Create a new repository on GitHub and push the local repository:
+```bash
+
+git remote add origin https://github.com/yourusername/dvwa-k8s.git
+git push -u origin master

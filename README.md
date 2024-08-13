@@ -79,5 +79,5 @@ git commit -m "Initial commit"
 3.Create a new repository on GitHub and push the local repository:
 ```bash
 
-git remote add origin https://github.com/yourusername/dvwa-k8s.git
+git remote add origin https://github.com/itsMrkakade/dvwa-k8s.git
 git push -u origin master

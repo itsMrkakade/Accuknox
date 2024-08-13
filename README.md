@@ -1,8 +1,7 @@
 # Accuknox
-Presentation: Kubernetes Security and Runtime Security Tools
-
-Problem Statement 2: Local Kubernetes Cluster and DVWA Deployment
-
+* Deploy a local k8s cluster (using minikube, k3s, or anything else) and deploy the
+DVWA application. Showcase/demo 3 attack surfaces as mentioned in its
+documentation.
 # DVWA Kubernetes Deployment
 
 This repository contains Kubernetes manifests and instructions for deploying the Damn Vulnerable Web Application (DVWA) on a local Kubernetes cluster using Minikube.
